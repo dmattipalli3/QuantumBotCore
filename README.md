@@ -10,7 +10,7 @@ Backend Project for Radical AI
 - Create a new project
 - Create a firebase database for the project you just created, and make sure to put it in TESTING MODE
 - After this enter the command firebase init, which will initialize your project for firebase
-- Then choose firestore and functions for feautures you want to add in your directory
+- Then choose firestore and functions for features you want to add in your directory
 - Then for the codebase, it will give you the option to initialize or overwrite an existing codebase, we created one so do overwrite
 - Then click yes for all additional files that firebase will provide for your project
 - Click yes for installing all npm dependencies
