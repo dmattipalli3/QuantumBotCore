@@ -24,3 +24,12 @@ Backend Project for Radical AI
 - You should get a message in the terminal saying the deployment was successful
 - Then on the firebase console, you should be able to see your functions on the functions tab
 - This is the endpoint being deployed to the cloud
+- Download Postman and create an account
+- Create a workspace for this specific project
+- Get the link from the function in the firebase console which is the API endpoint
+- Create a post request and paste the link here
+- Go to headers, and add content type, and set the value to application/json
+- Then go to body, and change to raw
+- Enter the data for the add message function, or respective function
+- If the data is valid, you should receive a success response in the output
+- Now if you go the firestore database, you should the message ID there
