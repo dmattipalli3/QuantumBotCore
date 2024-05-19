@@ -15,3 +15,12 @@ Backend Project for Radical AI
 - Then click yes for all additional files that firebase will provide for your project
 - Click yes for installing all npm dependencies
 - Then your firebase initialization will be complete
+- After this, for the database create a collection, and then a subcollection, which will then store the respective data
+- Create a folder in functions folder called api
+- Then create a function in this folder, I created a function that would add message for simplicity
+- After this make sure to go to the firebase console where your project is and change the plan from Spark to Blaze
+- Go to Index.js and make sure to set the file for the function here
+- Then enter command, firebase deploy --only functions
+- You should get a message in the terminal saying the deployment was successful
+- Then on the firebase console, you should be able to see your functions on the functions tab
+- This is the endpoint being deployed to the cloud
