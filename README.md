@@ -1,5 +1,4 @@
-# QuantumBotCore
-Backend Project for Radical AI
+# Chat Bot
 - First install Node js and VS Code
 - VS Code has a built in terminal, so use this for the remainder of the project
 - Check to see if Node js had a successful configuration by entering command node --version in terminal
